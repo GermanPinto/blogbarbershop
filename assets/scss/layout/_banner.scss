@@ -1,0 +1,23 @@
+.banner{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    &__img{
+        width: 100%;
+    }
+    &__textoBanner{
+        color: $white;
+        font-size: 5em;
+        padding: 260px 0px;
+        text-align: center;
+        background-image: url('../img/post-image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;   
+
+    }
+    &__simbolo_down{
+        text-align: center;
+        color: $white;
+        padding-top: 20rem;
+        font-size: 100%;
+    }
+}

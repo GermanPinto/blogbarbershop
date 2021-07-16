@@ -1,0 +1,29 @@
+.presentacion{
+    margin-top: 4rem;
+    &__img{
+        border-radius: 50%;
+        display: inline-block;
+    }
+    &__infoPersonal{
+       display: inline-block;
+    }
+
+    &__p1{
+        font-family: 'Playfair Display';
+        font-style: italic;
+        display: block;
+    }
+
+    &__p2{
+        display: block;
+        color:$ruddyPink;
+    }
+    &__p3{
+        display: inline-block;   
+        width:40%;
+    }
+
+    &__img, &__infoPersonal, &__p3{
+        margin-left: 1rem;
+    }
+}
